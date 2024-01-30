@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "276397215324",
+    "project_id": "nutriscanph-302f8",
+    "storage_bucket": "nutriscanph-302f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276397215324:android:2bed76cf93d806c1e12099",
+        "android_client_info": {
+          "package_name": "com.ninebythree.nutriscanph"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvMX17pBOJ5AFUjNLqGoO6qKnA1XwDJqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

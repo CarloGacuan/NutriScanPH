@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="0dp"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
+        >
+
+        <TextView
+            android:id="@+id/txtMealName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunny Side Up"
+            android:fontFamily="@font/montserratmedium"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:id="@+id/txtCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="197 cal"
+            android:fontFamily="@font/montserratsemibold"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

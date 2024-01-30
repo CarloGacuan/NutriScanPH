@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginVertical="10dp"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/pic1"
+        />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorep Ipsum"
+        android:layout_marginVertical="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/secondary"
+        android:fontFamily="@font/montserratbold"
+        />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pursuing my degree in BS in Information Technology. Have three months of experience training in Computer System Servicing with Pulxar TVI Inc. Strong oral and written communication, computer proficiency, video editing, and copy-editing skills. Seeking to leverage academic background and programming skills to fill a IT specialist position."
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/monserratregular"
+        />
+
+</LinearLayout>

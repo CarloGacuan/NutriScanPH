@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".authentication.NotVerifiedActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/verifyBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="90pt"
+            android:layout_height="100pt"
+            android:src="@drawable/undraw_email" />
+
+        <TextView
+            android:layout_width="150pt"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5pt"
+            android:layout_marginBottom="5pt"
+            android:fontFamily="@font/montserratsemibold"
+            android:gravity="center"
+            android:text="User Not Verified"
+            android:textSize="6.5pt" />
+
+        <TextView
+            android:layout_width="150pt"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserratmedium"
+            android:gravity="center"
+            android:text="User is not verify. Please click the verification button below to verify your email address. Then re-login for successful verification process." />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/verifyBtn"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="20pt"
+        android:layout_margin="5pt"
+        android:fontFamily="@font/montserratbold"
+        android:text="Verify Your Email"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:backgroundTint="@color/green"
+        app:cornerRadius="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:rippleColor="@color/white"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp"
+        tools:layout_editor_absoluteX="14dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/drawable_loading1"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="90pt"
+        android:layout_height="100pt"
+        android:background="@drawable/undraw_loading"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading"
+        android:fontFamily="@font/montserratsemibold"
+        android:textColor="@color/gray_9"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_marginVertical="10dp"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:indeterminate="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/karla"
+        android:text="NutriScanPH is a comprehensive nutritional analysis and personalized health insights. Dive into a world of innovative tools designed to scan and decode the nutritional content of your daily meals, empowering you to make informed choices for a healthier lifestyle. "
+        android:textColor="@color/gray_accent"
+        android:textSize="13sp"
+        android:layout_marginVertical="10dp"
+        android:textAlignment="center"/>
+
+</LinearLayout>

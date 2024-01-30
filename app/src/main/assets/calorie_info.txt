@@ -1,0 +1,25 @@
+Bread: 79
+Pancake: 175
+Waffle: 218
+Bagel: 245
+Muffin: 426
+Doughnut: 195
+Apple: 95
+Orange: 45
+Banana: 105
+Grape: 62
+Hamburger: 354
+Pizza: 285
+Sandwich: 340
+Hot dog: 151
+French fries: 365
+Pandesal: 73
+Pritong Meatloaf: 149
+Pritong Itlog: 101
+Rice: 206
+Pinakbet: 256
+Pritong Tilapia: 58
+Pinya: 42
+Soup: 40
+Menudo: 129
+Ubas: 62

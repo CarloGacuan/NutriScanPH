@@ -1,0 +1,25 @@
+Bread: 2
+Pancake: 5
+Waffle: 5
+Bagel: 2
+Muffin: 10
+Doughnut: 10
+Apple: 0.2
+Orange: 0.2
+Banana: 0.2
+Grape: 0.1
+Hamburger: 15
+Pizza: 15
+Sandwich: 5
+Hot dog: 10
+French fries: 30
+Pandesal: 1.1
+Pritong Meatloaf: 6
+Pritong Itlog: 8
+Rice: 0.4
+Pinakbet: 11
+Pritong Tilapia: 3.1
+Pinya: 0.1
+Soup: 0.4
+Menudo: 9.0
+Ubas: 0.1

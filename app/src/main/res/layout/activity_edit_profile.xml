@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:padding="30dp"
+    android:scrollbars="none"
+    tools:context=".activity.Edit_Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:fontFamily="@font/montserratsemibold"
+            android:textColor="@color/black"
+            android:layout_marginVertical="10dp"
+            android:textSize="20sp"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:src="@drawable/profile"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            app:shapeAppearance="?attr/actionButtonStyle"
+            app:shapeAppearanceOverlay="@style/imageViewRounded"
+            app:strokeColor="@android:color/white"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnUpdatePhoto"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/primary"
+            android:fontFamily="@font/montserratsemibold"
+            android:stateListAnimator="@null"
+            android:text="Update Photo"
+            android:textAllCaps="false"
+            app:icon="@drawable/edit"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:backgroundTint="@android:color/transparent"
+            app:cornerRadius="7dp"
+            app:rippleColor="@color/secondary"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+        <!-- Fullname -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Full Name"
+            app:hintTextColor="@color/secondary"
+            app:boxCornerRadiusBottomStart="5dp"
+            app:boxCornerRadiusBottomEnd="5dp"
+            app:boxCornerRadiusTopEnd="5dp"
+            app:boxCornerRadiusTopStart="5dp"
+            app:boxStrokeColor="@color/secondary"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputFullName"
+                android:layout_width="match_parent"
+                android:textColor="@color/secondary"
+                android:textSize="12sp"
+                android:inputType="textCapWords"
+                android:fontFamily="@font/montserratmedium"
+                android:layout_height="wrap_content"
+                android:background="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Age -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Age"
+            app:hintTextColor="@color/secondary"
+            app:boxCornerRadiusBottomStart="5dp"
+            app:boxCornerRadiusBottomEnd="5dp"
+            app:boxCornerRadiusTopEnd="5dp"
+            app:boxCornerRadiusTopStart="5dp"
+            app:boxStrokeColor="@color/secondary"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputAge"
+                android:layout_width="match_parent"
+                android:textColor="@color/secondary"
+                android:textSize="12sp"
+                android:inputType="number"
+                android:fontFamily="@font/montserratmedium"
+                android:layout_height="wrap_content"
+                android:background="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Height -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Height (cm)"
+            app:hintTextColor="@color/secondary"
+            app:boxCornerRadiusBottomStart="5dp"
+            app:boxCornerRadiusBottomEnd="5dp"
+            app:boxCornerRadiusTopEnd="5dp"
+            app:boxCornerRadiusTopStart="5dp"
+            app:boxStrokeColor="@color/secondary"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputHeight"
+                android:layout_width="match_parent"
+                android:textColor="@color/secondary"
+                android:textSize="12sp"
+                android:inputType="number"
+                android:fontFamily="@font/montserratmedium"
+                android:layout_height="wrap_content"
+                android:background="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Weight -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Weight (Kg)"
+            app:hintTextColor="@color/secondary"
+            app:boxCornerRadiusBottomStart="5dp"
+            app:boxCornerRadiusBottomEnd="5dp"
+            app:boxCornerRadiusTopEnd="5dp"
+            app:boxCornerRadiusTopStart="5dp"
+            app:boxStrokeColor="@color/secondary"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputWeight"
+                android:layout_width="match_parent"
+                android:textColor="@color/secondary"
+                android:textSize="12sp"
+                android:inputType="number"
+                android:fontFamily="@font/montserratmedium"
+                android:layout_height="wrap_content"
+                android:background="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="12sp"
+            android:layout_gravity="start"
+            android:fontFamily="@font/montserratmedium"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="5dp"
+            android:textColor="@color/black"
+            />
+
+        <!-- Radio Button of gender -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/genderRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/maleRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/male"
+                    android:drawableTint="@color/secondary"
+                    android:buttonTint="@color/secondary"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/femaleRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/female"
+                    android:buttonTint="@color/secondary"
+                    android:drawableTint="@color/secondary"
+                    />
+
+                <RadioButton
+                    android:id="@+id/otherRadioButton"
+                    android:layout_width="wrap_content"
+                    android:buttonTint="@color/secondary"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/secondary"
+                    android:text="Other" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEdit"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/primary"
+            android:fontFamily="@font/montserratsemibold"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:layout_marginVertical="20dp"
+            android:stateListAnimator="@null"
+            android:text="Edit Profile"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:backgroundTint="@color/primary"
+            app:cornerRadius="7dp"
+            app:rippleColor="@color/secondary"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+    </LinearLayout>
+
+</ScrollView>

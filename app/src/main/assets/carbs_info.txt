@@ -1,0 +1,25 @@
+Bread: 15.0
+Pancake: 30.0
+Waffle: 30.0
+Bagel: 30.0
+Muffin: 40.0
+Doughnut: 40.0
+Apple: 10.0
+Orange: 10.0
+Banana: 10.0
+Grape: 10.0
+Hamburger: 30.0
+Pizza: 30.0
+Sandwich: 30.0
+Hot dog: 30.0
+French fries: 30
+Pandesal: 13.2
+Pritong Meatloaf: 4.5
+Pritong Itlog: 0.6
+Rice: 45.0
+Pinakbet: 29.0
+Pritong Tilapia: 2.1
+Pinya: 11.0
+Soup: 12.0
+Menudo: 12.0
+Ubas: 10.0
