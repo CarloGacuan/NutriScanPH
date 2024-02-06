@@ -30,4 +30,4 @@ Preparing the data
 
 • Change the classes in (OIDv4_ToolKit/classes.txt) accordingly. Then, zip the (OIDv4_ToolKit folder) and upload it to (food_detection).
 
-• Modify label_map.pbtxt to match the custom classes and upload it tofood_detection.
+• Modify [label_map.pbtxt](https://github.com/CarloGacuan/NutriScanPH/blob/master/app/src/main/assets/food_labelmap.txt) to match the custom classes and upload it tofood_detection.
