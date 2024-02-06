@@ -39,4 +39,4 @@ Adding the model to Android Studio
 
 • Modify (food_labelmap.txt) accordingly. Make sure to keep (???) as the first line.
 
-• Modify (calorie_info.txt) to reflect the custom classes
+• Modify (calorie_info.txt) to reflect the custom classes.
