@@ -1,4 +1,5 @@
 Track your calories easily on Android using real-time object detection.
+
 ![image](https://github.com/CarloGacuan/NutriScanPH/assets/124227436/ad724c87-111d-4aec-9397-c0e3e3af294e)
 
 **Overview**
@@ -30,4 +31,12 @@ Preparing the data
 
 • Change the classes in (OIDv4_ToolKit/classes.txt) accordingly. Then, zip the (OIDv4_ToolKit folder) and upload it to (food_detection).
 
-• Modify [label_map.pbtxt](https://github.com/CarloGacuan/NutriScanPH/blob/master/app/src/main/assets/food_labelmap.txt) to match the custom classes and upload it tofood_detection.
+• Modify [label_map.pbtxt](https://github.com/CarloGacuan/NutriScanPH/blob/master/app/src/main/assets/food_labelmap.txt) to match the custom classes and upload it to food_detection.
+
+Adding the model to Android Studio
+
+• Download (food_detect.tflite) from (model_checkpoints/tflite_model/) and move it to the assets folder in Android Studio. It should replace the existing pretrained model.
+
+• Modify (food_labelmap.txt) accordingly. Make sure to keep (???) as the first line.
+
+• Modify (calorie_info.txt) to reflect the custom classes
