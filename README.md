@@ -10,8 +10,7 @@ This demo app allows users to quickly obtain calorie information and know what i
 To set up the pre-trained demo in Android Studio, opt for "Open an existing Android Studio project," find the Food.AI/Food.AI directory, connect a device, and then click 'run' to start the execution.
 
 **Model Training**
-• Create a directory in Google Drive called *This is italic text*
-.
+• Create a directory in Google Drive called **food_detection**.
 •
 •
 Custom food classes
