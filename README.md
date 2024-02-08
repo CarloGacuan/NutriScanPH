@@ -16,20 +16,21 @@ To set up the pre-trained demo in Android Studio, opt for "Open an existing Andr
 
 • Add the [training dataset](https://drive.google.com/drive/u/4/folders/1IxrGgg_7ublLS8AtIuFwzLBqpnIPdnA1) and [label_map.pbtxt](https://github.com/CarloGacuan/NutriScanPH/blob/master/app/src/main/assets/food_labelmap.txt) to food_detection.
 
-• Open (FoodAI_train.ipynb) and follow the notebook instructions.
+• Open `FoodAI_train.ipynb` and follow the notebook instructions.
 
-• To use the newly trained model, download (food_detect.tflite) from (model_checkpoints/tflite_model/) and move it to the assets folder in Android Studio. It should replace the existing pretrained model.
+• To use the newly trained model, download `food_detect.tflite` from `model_checkpoints/tflite_model/` and move it to the assets folder in Android Studio. It should replace the existing pretrained model.
 
 
 Custom food classes
 
 Preparing the data
 
-• Create a directory in Google Drive called (food_detection).
+• Label the common Filipino foods using LabelImg. 
+• Create a directory in Google Drive called `food_detection`.
 
 • Use [OIDv4 ToolKit](https://github.com/EscVM/OIDv4_ToolKit) to download images and bounding box annotations for the desired classes.
 
-• Change the classes in (OIDv4_ToolKit/classes.txt) accordingly. Then, zip the (OIDv4_ToolKit folder) and upload it to (food_detection).
+• Change the classes in `OIDv4_ToolKit/classes.txt` accordingly. Then, zip the `OIDv4_ToolKit folder` and upload it to `food_detection`.
 
 • Modify [label_map.pbtxt](https://github.com/CarloGacuan/NutriScanPH/blob/master/app/src/main/assets/food_labelmap.txt) to match the custom classes and upload it to food_detection.
 
