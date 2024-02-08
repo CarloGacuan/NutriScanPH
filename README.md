@@ -25,7 +25,8 @@ Custom food classes
 
 Preparing the data
 
-• Label the common Filipino foods using LabelImg. 
+• Label the common Filipino foods image using LabelImg. 
+
 • Create a directory in Google Drive called `food_detection`.
 
 • Use [OIDv4 ToolKit](https://github.com/EscVM/OIDv4_ToolKit) to download images and bounding box annotations for the desired classes.
@@ -36,8 +37,8 @@ Preparing the data
 
 Adding the model to Android Studio
 
-• Download (food_detect.tflite) from (model_checkpoints/tflite_model/) and move it to the assets folder in Android Studio. It should replace the existing pretrained model.
+• Download `food_detect.tflite` from `model_checkpoints/tflite_model/` and move it to the assets folder in Android Studio. It should replace the existing pretrained model.
 
-• Modify (food_labelmap.txt) accordingly. Make sure to keep (???) as the first line.
+• Modify `food_labelmap.txt` accordingly. Make sure to keep `???` as the first line.
 
-• Modify (calorie_info.txt) to reflect the custom classes.
+• Modify `calorie_info.txt` to reflect the custom classes.
