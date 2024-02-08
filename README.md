@@ -21,7 +21,7 @@ To set up the pre-trained demo in Android Studio, opt for "Open an existing Andr
 • To use the newly trained model, download `food_detect.tflite` from `model_checkpoints/tflite_model/` and move it to the assets folder in Android Studio. It should replace the existing pretrained model.
 
 
-Custom food classes
+**Custom food classes**
 
 Preparing the data
 
@@ -35,7 +35,7 @@ Preparing the data
 
 • Modify [label_map.pbtxt](https://github.com/CarloGacuan/NutriScanPH/blob/master/app/src/main/assets/food_labelmap.txt) to match the custom classes and upload it to food_detection.
 
-Adding the model to Android Studio
+**Adding the model to Android Studio**
 
 • Download `food_detect.tflite` from `model_checkpoints/tflite_model/` and move it to the assets folder in Android Studio. It should replace the existing pretrained model.
 
