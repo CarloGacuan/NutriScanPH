@@ -25,6 +25,8 @@ To set up the pre-trained demo in Android Studio, opt for "Open an existing Andr
 
 Preparing the data
 
+• Collect images or datasets.
+
 • Label the common Filipino foods image using LabelImg. 
 
 • Create a directory in Google Drive called `food_detection`.
