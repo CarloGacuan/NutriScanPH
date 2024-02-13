@@ -12,7 +12,7 @@ To set up the pre-trained demo in Android Studio, opt for "Open an existing Andr
 
 **Model Training**
 
-• Create a directory in Google Drive called 'food_detection'.
+• Create a directory in Google Drive called `food_detection`.
 
 • Add the [training dataset](https://drive.google.com/drive/u/4/folders/1IxrGgg_7ublLS8AtIuFwzLBqpnIPdnA1) and [label_map.pbtxt](https://github.com/CarloGacuan/NutriScanPH/blob/master/app/src/main/assets/food_labelmap.txt) to food_detection.
 
